@@ -1,0 +1,33 @@
+.elearning--header{}
+ .elearning--header-subcontainer{}
+   .elearning--logo{} 
+   .elearning--get-started-button{} 
+
+.elearning-sidebar{}
+ .elearning-sidebar--subcontainer{}
+  .elearning-sidebar--h1{}
+  .elearning-sidebar--text{}
+  .elearning--get-started-button{}
+ .elearning--hero-image {}
+
+.elearning-courses{}
+ .elearning-courses--header{}
+ .elearning-courses-sidebar{}
+ ...
+
+  .elearning-courses--header{}
+    .elearning-courses--header-text{}
+ 
+ .elearning-courses-sidebar{}
+  .elearning-courses-sidebar--icon{}
+  .elearning-courses-sidebar--category{} 
+  .elearning-courses-sidebar--description{} 
+  .elearning-courses-sidebar--get-started-link{} 
+
+  .elearning-footer{} 
+   .elearning-footer--subcontainer{} 
+     .elearning-logo{} 
+     .elearning--get-started-button{} 
+
+   .elearning--get-started-button{} 
+    .elearning--get-started-button-text{} 
