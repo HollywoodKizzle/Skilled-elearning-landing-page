@@ -25,7 +25,7 @@ $elearning_icons = array(
 
     <!--CSS------>
 <link href="elearning.css" rel="stylesheet">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family="Plus Jakarta Sans"'> 
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=<?php echo $elearning_font;?>'> 
     <!--JAVASCRIPT-->
     <script type="module" src="elearning.js"></script>
 </head>
@@ -33,7 +33,7 @@ $elearning_icons = array(
 <body>
 <header class='elearning--header' id=''>
   <div class='elearning--header-subcontainer' id=''>
-    <img id='' class='elearning--logo' src='logo-dark.svg'>
+    <img id='' class='elearning--logo' src=<?php echo $elearning_logos["header"]; ?>>
     <button type='button' class='elearning--get-started-button' id=''>
       <span class='elearning--get-started-button-text' id=''>Get Started</span>
     </button>
@@ -89,35 +89,35 @@ image-hero-desktop2.png 2x' sizes='' type='png'>
   </header>  
   
   <div class='mobile-horizontal-centering elearning-courses-sidebar' id=''>
-    <img id='' class='elearning-courses-sidebar--icon' src='icon-animation.svg'> 
+    <img id='' class='elearning-courses-sidebar--icon' src=<?php echo  $elearning_icons["Animation"];?>> 
     <h2 class='elearning-courses-sidebar--category' id=''>Animation</h2>
     <p class='elearning-courses-sidebar--description' id=''>Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
     <a href='' class='elearning-courses-sidebar--get-started-link' id=''>Get Started</a> 
   </div>
 
   <div class='mobile-horizontal-centering elearning-courses-sidebar' id=''>
-    <img id='' class='elearning-courses-sidebar--icon' src='icon-design.svg'> 
+    <img id='' class='elearning-courses-sidebar--icon' src=<?php echo  $elearning_icons["Design"];?>> 
     <h2 class='elearning-courses-sidebar--category' id=''>Design</h2>
     <p class='elearning-courses-sidebar--description' id=''>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
     <a href='' class='elearning-courses-sidebar--get-started-link' id=''>Get Started</a> 
   </div>
 
   <div class='mobile-horizontal-centering elearning-courses-sidebar' id=''>
-    <img id='' class='elearning-courses-sidebar--icon' src='icon-photography.svg'> 
+    <img id='' class='elearning-courses-sidebar--icon' src=<?php echo  $elearning_icons["Photography"];?>> 
     <h2 class='elearning-courses-sidebar--category' id=''>Photography</h2>
     <p class='elearning-courses-sidebar--description' id=''>Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
     <a href='' class='elearning-courses-sidebar--get-started-link' id=''>Get Started</a> 
   </div>
 
   <div class='mobile-horizontal-centering elearning-courses-sidebar' id=''>
-    <img id='' class='elearning-courses-sidebar--icon' src='icon-crypto.svg'> 
+    <img id='' class='elearning-courses-sidebar--icon' src=<?php echo  $elearning_icons["Crypto"];?>> 
     <h2 class='elearning-courses-sidebar--category' id=''>Crypto</h2>
     <p class='elearning-courses-sidebar--description' id=''>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
     <a href='' class='elearning-courses-sidebar--get-started-link' id=''>Get Started</a> 
   </div>
 
   <div class='mobile-horizontal-centering elearning-courses-sidebar' id=''>
-    <img id='' class='elearning-courses-sidebar--icon' src='icon-business.svg'> 
+    <img id='' class='elearning-courses-sidebar--icon' src=<?php echo  $elearning_icons["Business"];?>> 
     <h2 class='elearning-courses-sidebar--category' id=''>Business</h2>
     <p class='elearning-courses-sidebar--description' id=''>A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
     <a href='' class='elearning-courses-sidebar--get-started-link' id=''>Get Started</a> 
@@ -126,7 +126,7 @@ image-hero-desktop2.png 2x' sizes='' type='png'>
 
 <footer class='elearning-footer' id=''>
   <div class='elearning-footer--subcontainer mobile-horizontal-centering' id=''>
-    <img id='' class='elearning--logo' src='logo-light.svg'>
+    <img id='' class='elearning--logo' src=<?php echo $elearning_logos["footer"]; ?>>
     <button type='button' class='elearning--get-started-button' id=''>
       <span class='elearning--get-started-button-text' id=''>Get Started</span>
     </button>
