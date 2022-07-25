@@ -1,6 +1,7 @@
 .elearning--header{}
- .elearning--logo{} 
- .elearning--get-started-button{} 
+ .elearning--header-subcontainer{}
+   .elearning--logo{} 
+   .elearning--get-started-button{} 
 
 .elearning-sidebar{}
  .elearning-sidebar--subcontainer{}
@@ -23,9 +24,10 @@
   .elearning-courses-sidebar--description{} 
   .elearning-courses-sidebar--get-started-link{} 
 
-  .elearning-footer
-   .elearning-logo
-   .elearning--get-started-button
+  .elearning-footer{} 
+   .elearning-footer--subcontainer{} 
+     .elearning-logo{} 
+     .elearning--get-started-button{} 
 
-   .elearning--get-started-button
-    .elearning--get-started-button-text
+   .elearning--get-started-button{} 
+    .elearning--get-started-button-text{} 
